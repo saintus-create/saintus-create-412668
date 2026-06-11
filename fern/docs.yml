@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
+
+instances:
+  - url: britannica.docs.buildwithfern.com
+    edit-this-page:
+      github:
+        owner: fern-starter
+        repo: saintus-create-412668
+        branch: main
+      launch: dashboard
+title: Britannica | Documentation
+layout:
+  searchbar-placement: header
+  page-width: full
+  tabs-placement: header
+tabs:
+  home:
+    display-name: Home
+    icon: home
+  API Reference:
+    display-name: API Reference
+    icon: puzzle
+navigation:
+  - tab: home
+    layout:
+      - section: Get started
+        contents:
+          - page: Welcome
+            path: docs/pages/welcome.mdx
+            icon: fa-solid fa-house
+          - page: Edit your docs
+            path: docs/pages/editing-your-docs.mdx
+            icon: fa-solid fa-pen-to-square
+          - page: Manage your docs
+            path: docs/pages/dashboard.mdx
+            icon: fa-regular fa-gauge
+          - page: Use components
+            path: docs/pages/components.mdx
+            icon: fa-solid fa-cubes
+          - page: Developer guide
+            path: docs/pages/developer-guide.mdx
+            icon: fa-solid fa-code
+          - page: Support
+            path: docs/pages/support.mdx
+            icon: fa-solid fa-headset
+      - section: Changelog
+        contents:
+          - changelog: docs/changelog
+  - tab: API Reference
+    layout:
+      - section: Overview
+        contents:
+          - page: API reference
+            path: docs/pages/api-reference-overview.mdx
+            icon: fa-duotone fa-book
+      - api: Swagger Plant Store - OpenAPI 3.1
+        api-name: example-openapi
+      - api: Plant Store AsyncAPI
+        api-name: example-asyncapi
+navbar-links:
+  - type: filled
+    text: Edit
+    url: https://dashboard.buildwithfern.com
+colors:
+  accent-primary:
+    light: "#165DFC"
+    dark: "#165DFC"
+  background:
+    light: "#F8FAFF"
+    dark: "#01050D"
+  border:
+    light: "#C9CEDA"
+    dark: "#272C37"
+theme:
+  page-actions: toolbar
+  footer-nav: minimal
+logo:
+  dark: docs/assets/logo-dark.png
+  light: docs/assets/logo-light.png
+  height: 20
+  href: https://buildwithfern.com
+favicon: docs/assets/favicon.svg
+css: styles.css
+ai-search: {}
