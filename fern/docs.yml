@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
-
 instances:
   - url: britannica.docs.buildwithfern.com
     edit-this-page:
@@ -43,9 +41,15 @@ navigation:
           - page: Support
             path: docs/pages/support.mdx
             icon: fa-solid fa-headset
+          - page: Stimulant
+            path: ./docs/pages/stimulant.mdx
       - section: Changelog
         contents:
           - changelog: docs/changelog
+      - section: News
+        contents:
+          - page: Abuse
+            path: ./docs/pages/home/news/abuse.mdx
   - tab: API Reference
     layout:
       - section: Overview
@@ -63,14 +67,17 @@ navbar-links:
     url: https://dashboard.buildwithfern.com
 colors:
   accent-primary:
-    light: "#165DFC"
-    dark: "#165DFC"
+    light: '#165DFC'
+    dark: '#165DFC'
   background:
-    light: "#F8FAFF"
-    dark: "#01050D"
+    light: '#F8FAFF'
+    dark: '#ffffff'
   border:
-    light: "#C9CEDA"
-    dark: "#272C37"
+    light: '#C9CEDA'
+    dark: '#272C37'
+  card-background:
+    light: '#232221'
+    dark: '#232221'
 theme:
   page-actions: toolbar
   footer-nav: minimal
@@ -79,6 +86,5 @@ logo:
   light: docs/assets/logo-light.png
   height: 20
   href: https://buildwithfern.com
-favicon: docs/assets/favicon.svg
 css: styles.css
 ai-search: {}
