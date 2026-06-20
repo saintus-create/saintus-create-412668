@@ -4,7 +4,7 @@ instances:
   - url: britannica.docs.buildwithfern.com
     edit-this-page:
       github:
-        owner: saintus-create
+        owner: fern-starter
         repo: saintus-create-412668
         branch: main
       launch: dashboard
