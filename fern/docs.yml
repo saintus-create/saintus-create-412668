@@ -4,11 +4,11 @@ instances:
   - url: britannica.docs.buildwithfern.com
     edit-this-page:
       github:
-        owner: saintus-create
+        owner: fern-starter
         repo: saintus-create-412668
         branch: main
       launch: dashboard
-title: Encyclopedia of Rhetoric
+title: Britannica | Documentation
 layout:
   searchbar-placement: header
   page-width: full
@@ -17,149 +17,46 @@ tabs:
   home:
     display-name: Home
     icon: home
+  API Reference:
+    display-name: API Reference
+    icon: puzzle
 navigation:
   - tab: home
     layout:
-      - section: A
+      - section: Get started
         contents:
-          - page: Accumulatio
-            path: docs/pages/rhetoric/accumulatio.mdx
-          - page: Actio
-            path: docs/pages/rhetoric/actio.mdx
-          - page: Advertising Rhetoric
-            path: docs/pages/rhetoric/advertising-rhetoric-of.mdx
-          - page: African American Rhetoric
-            path: docs/pages/rhetoric/african-american-rhetoric.mdx
-          - page: Anacoluthon
-            path: docs/pages/rhetoric/anacoluthon.mdx
-          - page: Anadiplosis
-            path: docs/pages/rhetoric/anadiplosis.mdx
-          - page: Anaphora
-            path: docs/pages/rhetoric/anaphora.mdx
-          - page: Anapodoton
-            path: docs/pages/rhetoric/anapodoton.mdx
-          - page: Anastrophe
-            path: docs/pages/rhetoric/anastrophe.mdx
-          - page: Antanaclasis
-            path: docs/pages/rhetoric/antanaclasis.mdx
-          - page: Anthimeria
-            path: docs/pages/rhetoric/anthimeria.mdx
-          - page: Antidosis
-            path: docs/pages/rhetoric/antidosis.mdx
-          - page: Antimetabole
-            path: docs/pages/rhetoric/antimetabole.mdx
-          - page: Antiptosis
-            path: docs/pages/rhetoric/antiptosis.mdx
-          - page: Antithesis
-            path: docs/pages/rhetoric/antithesis.mdx
-          - page: Aposiopesis
-            path: docs/pages/rhetoric/aposiopesis.mdx
-          - page: Apostrophe
-            path: docs/pages/rhetoric/apostrophe.mdx
-          - page: Argument
-            path: docs/pages/rhetoric/argument.mdx
-          - page: Aristotle
-            path: docs/pages/rhetoric/aristotle.mdx
-          - page: Arrangement
-            path: docs/pages/rhetoric/arrangement.mdx
-          - page: Ars Praedicandi
-            path: docs/pages/rhetoric/ars-praedicandi.mdx
-          - page: Asterismos
-            path: docs/pages/rhetoric/asterismos.mdx
-          - page: Asyndeton
-            path: docs/pages/rhetoric/asyndeton.mdx
-          - page: Atticism
-            path: docs/pages/rhetoric/atticism.mdx
-          - page: Austin, J.L.
-            path: docs/pages/rhetoric/austin-jl-19111960.mdx
-          - page: Author
-            path: docs/pages/rhetoric/author.mdx
-          - page: Axiology
-            path: docs/pages/rhetoric/axiology.mdx
-          - page: Aytoun, Edward Edmondstoune
-            path: docs/pages/rhetoric/aytoun-edward-edmondstoune.mdx
-      - section: B
+          - page: Welcome
+            path: docs/pages/welcome.mdx
+            icon: fa-solid fa-house
+          - page: Edit your docs
+            path: docs/pages/editing-your-docs.mdx
+            icon: fa-solid fa-pen-to-square
+          - page: Manage your docs
+            path: docs/pages/dashboard.mdx
+            icon: fa-regular fa-gauge
+          - page: Use components
+            path: docs/pages/components.mdx
+            icon: fa-solid fa-cubes
+          - page: Developer guide
+            path: docs/pages/developer-guide.mdx
+            icon: fa-solid fa-code
+          - page: Support
+            path: docs/pages/support.mdx
+            icon: fa-solid fa-headset
+      - section: Changelog
         contents:
-          - page: Barthes, Roland
-            path: docs/pages/rhetoric/barthes-roland-19151980.mdx
-          - page: Basic Concepts (Operant)
-            path: docs/pages/rhetoric/basic-concepts-operant.mdx
-          - page: Bede
-            path: docs/pages/rhetoric/bede-672-or-673735-ce.mdx
-          - page: Bentham, Jeremy
-            path: docs/pages/rhetoric/bentham-jeremy-17481832.mdx
-          - page: Berthoff, Ann E.B.
-            path: docs/pages/rhetoric/berthoff-ann-e-b-1924.mdx
-          - page: Britton, James
-            path: docs/pages/rhetoric/britton-james-19081994.mdx
-          - page: Burke's Approach to Understanding How Language Functions
-            path: docs/pages/rhetoric/burkes-approach-to-understanding-how-language-functions.mdx
-      - section: C
+          - changelog: docs/changelog
+  - tab: API Reference
+    layout:
+      - section: Overview
         contents:
-          - page: Campbell, George, Smith, Adam
-            path: docs/pages/rhetoric/campbell-george-smith-adam.mdx
-          - page: Catachresis
-            path: docs/pages/rhetoric/catachresis.mdx
-          - page: Cause and Effect
-            path: docs/pages/rhetoric/cause-and-effect.mdx
-          - page: Century Rhetoric (Whately, Richard)
-            path: docs/pages/rhetoric/century-rhetoric-whately-richard.mdx
-          - page: Chiasmus
-            path: docs/pages/rhetoric/chiasmus.mdx
-          - page: Chomsky, Noam
-            path: docs/pages/rhetoric/chomsky-noam-b-1928.mdx
-          - page: Cicero
-            path: docs/pages/rhetoric/cicero-dialogics-plato-topics.mdx
-          - page: Cixous, Hélène
-            path: docs/pages/rhetoric/cixous-hlne-b-1937.mdx
-          - page: Clarity
-            path: docs/pages/rhetoric/clarity.mdx
-          - page: Classification
-            path: docs/pages/rhetoric/classification.mdx
-          - page: Cognitive Rhetoric
-            path: docs/pages/rhetoric/cognitive-rhetoric.mdx
-          - page: Coherence
-            path: docs/pages/rhetoric/coherence.mdx
-          - page: Cohesion
-            path: docs/pages/rhetoric/cohesion.mdx
-          - page: Collaboration
-            path: docs/pages/rhetoric/collaboration.mdx
-          - page: Commonplaces
-            path: docs/pages/rhetoric/commonplaces.mdx
-          - page: Communication
-            path: docs/pages/rhetoric/communication.mdx
-          - page: Comparison
-            path: docs/pages/rhetoric/comparison.mdx
-          - page: Components
-            path: docs/pages/rhetoric/components.mdx
-          - page: Composition and Communication
-            path: docs/pages/rhetoric/composition-and-communication.mdx
-          - page: Composition Studies
-            path: docs/pages/rhetoric/composition-studies.mdx
-          - page: Computer Applications in Rhetoric
-            path: docs/pages/rhetoric/computer-applications-in-rhetoric.mdx
-          - page: Confirmatio
-            path: docs/pages/rhetoric/confirmatio.mdx
-          - page: Consubstantiality
-            path: docs/pages/rhetoric/consubstantiality.mdx
-          - page: Contextuality
-            path: docs/pages/rhetoric/contextuality.mdx
-          - page: Contingency
-            path: docs/pages/rhetoric/contingency.mdx
-          - page: Contrast
-            path: docs/pages/rhetoric/contrast.mdx
-          - page: Copia
-            path: docs/pages/rhetoric/copia.mdx
-          - page: Corax
-            path: docs/pages/rhetoric/corax-c-490-bcec-440-bce.mdx
-          - page: Correctness
-            path: docs/pages/rhetoric/correctness.mdx
-          - page: Current-Traditional Rhetoric
-            path: docs/pages/rhetoric/current-traditional-rhetoric.mdx
-      - section: D-Y
-        contents:
-          - page: All other terms
-            path: docs/pages/rhetoric
+          - page: API reference
+            path: docs/pages/api-reference-overview.mdx
+            icon: fa-duotone fa-book
+      - api: Swagger Plant Store - OpenAPI 3.1
+        api-name: example-openapi
+      - api: Plant Store AsyncAPI
+        api-name: example-asyncapi
 navbar-links:
   - type: filled
     text: Edit
@@ -172,8 +69,8 @@ colors:
     light: "#F8FAFF"
     dark: "#01050D"
   border:
-    light: "#C9CEDA"
-    dark: "#272C37"
+    light: "#f8faff"
+    dark: "#f8faff"
 theme:
   page-actions: toolbar
   footer-nav: minimal
@@ -182,6 +79,5 @@ logo:
   light: docs/assets/logo-light.png
   height: 20
   href: https://buildwithfern.com
-favicon: docs/assets/favicon.svg
 css: styles.css
 ai-search: {}
