@@ -160,6 +160,10 @@ navigation:
         contents:
           - page: All other terms
             path: docs/pages/rhetoric
+      - section: Browse All
+        contents:
+          - page: View All Terms
+            path: docs/pages/rhetoric
 navbar-links:
   - type: filled
     text: Edit
